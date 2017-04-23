@@ -2,7 +2,7 @@ defmodule Project.Mixfile do
   use Mix.Project
 
   @name    :gen_template_ecto_service
-  @version "0.2.0"
+  @version "0.2.1"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
