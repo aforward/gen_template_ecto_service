@@ -37,7 +37,7 @@ defmodule Project.Mixfile do
   defp package do
     [
       name:        @name,
-      files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template"],
+      files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template", "template/$PROJECT_NAME$/.gitignore"],
       maintainers: @maintainers,
       licenses:    ["Apache 2.0"],
       links:       %{
