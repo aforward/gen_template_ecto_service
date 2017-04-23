@@ -3,7 +3,7 @@ defmodule Mix.Gen.Template.EctoService do
   @moduledoc File.read!(Path.join([__DIR__, "../README.md"]))
 
   use MixTemplates,
-    name:       :project,
+    name:       :ecto_service,
     short_desc: "A template for building an elixir service based on a Postgres database using Ecto.",
     source_dir: "../template",
     options:    [
