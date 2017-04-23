@@ -2,7 +2,7 @@ defmodule Project.Mixfile do
   use Mix.Project
 
   @name    :gen_template_ecto_service
-  @version "0.2.1"
+  @version "0.2.2"
 
   @deps [
     { :mix_templates,  ">0.0.0",  app: false },
@@ -37,7 +37,11 @@ defmodule Project.Mixfile do
   defp package do
     [
       name:        @name,
-      files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template", "template/$PROJECT_NAME$/.gitignore"],
+      files:       [
+                      "lib", "mix.exs", "README.md", "LICENSE.md", "template",
+                      "template/$PROJECT_NAME$/.gitignore",
+                      "template/$PROJECT_NAME$/.iex.exs",
+                   ],
       maintainers: @maintainers,
       licenses:    ["Apache 2.0"],
       links:       %{
