@@ -9,6 +9,8 @@ defmodule <%= @project_name_camel_case %>.Mixfile do
     {:postgrex, "~> 0.13.2"},
     {:ecto, "~> 2.1"},
     {:poison, "~> 3.1.0"},
+    {:fn_expr, "~> 0.2"},
+    {:version_tasks, "~> 0.10"},
     {:ex_doc, ">= 0.0.0", only: :dev}
   ]
 
